@@ -1,0 +1,19 @@
+/*
+==> Variables <==
+*/
+:root {
+    /* Color palette */
+    --clr-primary-1: #0A2F37;
+    --clr-primary-2: #8BB3BD;
+    --clr-primary-3: #EFECE2;
+    --clr-black: #222;
+    --clr-grey: #595457;
+    --clr-grey-2: #4D484B;
+    --clr-white: #fff;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --font-primary: 'Courier Prime', monospace;
+    --font-secondary: 'Rochester', cursive;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+  }

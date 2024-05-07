@@ -1,0 +1,48 @@
+body.login {
+    background-color: transparent;
+    background: linear-gradient( rgba(10, 47, 55, 0.7), rgba(239, 236, 226, .5)),
+      url(../images/portada.jpg) center/cover no-repeat;
+}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {
+    background-image: url('../images/paperBoat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.login div#login form#loginform {
+    background-color: rgba(239, 236, 226, 0.6);
+    border-radius: .8rem;
+    border: 2px solid var(--clr-primary-2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-secondary);
+    color: var(--clr-primary-1);
+}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform div label {font-size: 1.2rem;}
+body.login div#login form#loginform div button {color: var(--clr-primary-2);}
+body.login div#login form#loginform p label {font-size: 1.2rem;}
+body.login div#login form#loginform input {
+    border-radius: .9rem;
+    border: .9px solid var(--clr-primary-2);
+    background: var(--clr-primary-3);
+    font-size: 1rem;
+    font-family: var(--font-primary);
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {
+    font-family: var(--font-secondary);
+    color: var(--clr-primary-3);
+    background: var(--clr-primary-1);
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover{ background: var(--clr-primary-2);}
+body.login div#login p#nav {}
+body.login div#login p#nav a {color: var(--clr-primary-3);}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {color: var(--clr-primary-3);}
+body.login div.language-switcher{font-family: var(--font-secondary);}
+body.login div.language-switcher form#language-switcher input{border-radius: .6rem;}

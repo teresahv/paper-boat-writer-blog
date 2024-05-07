@@ -1,0 +1,4 @@
+body#tinymce.wp-editor {  font-family: var(--font-primary); }
+body#tinymce.wp-editor a { color: var(--clr-primary-1);}
+body#tinymce.wp-editor a:hover{ color: var(--clr-primary-2);}
+
